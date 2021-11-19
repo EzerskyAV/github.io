@@ -1,0 +1,73 @@
+* {
+    padding: 0; margin: 0;
+}
+.img {
+    border: none;
+}
+.karkas {
+    width: 750px; margin: 0 auto; background-color: rgb(211, 243, 215);
+}
+.header {
+    padding: 30px 0 0 0; margin: 20px;
+}
+.back {
+    background-color: #7ac991; font-family: Arial, Helvetica, sans-serif; font-size: 30px; text-align: center; color: #ffc23c; margin: 20px auto; border-radius: 20%;
+}
+.image {
+    margin: 0 auto 20px auto; display: block;
+}
+.video {
+    width: 600px; background-color: #fff; margin: 20px auto; padding: auto;  display: flex; justify-content: center;
+}
+.menu {
+    list-style: none; background-color: rgb(217, 247, 247); font-size: 20px; font-weight: bold; overflow: hidden; border-radius: 50%;
+    border-left: 1px solid rgb(103, 241, 172);
+    border-right: 1px solid rgb(103, 241, 172);
+    border-top: 1px solid rgb(103, 241, 172);
+    border-bottom: 3px solid #7ac991;
+}
+.menu li {
+    float: left; border-left: 1px solid rgb(103, 241, 172); padding: 8px 100px;
+}
+.menu li:first-child {
+    float: left; border-left: none; padding: 8px 70px;
+}
+.menu li a {
+    text-decoration: none; color: #7ac991;
+}
+.menu li a:hover {
+    text-decoration: underline; color: rgb(0, 0, 0);
+}
+.slider {
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.slider-line {
+    width: 1800px;
+    height: 300px;
+    display: flex;
+    background: #ffb0ca;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+button:hover {
+    background: #ffb0ca;
+}
+.footer {
+    display: flex; justify-content: center; margin: 20px auto;
+}
+.nsk {
+    text-align: center;
+}
+
